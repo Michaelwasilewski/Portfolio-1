@@ -235,3 +235,9 @@ section {
     height: 450px;
   }
 }
+@media screen and (max-width: 450px) {
+  .featured-img img {
+    width: 300px;
+    height: 300px;
+  }
+}
