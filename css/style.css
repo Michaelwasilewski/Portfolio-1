@@ -1,3 +1,5 @@
+@import url("./colors.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
 nav {
   height: 80px;
   width: 100%;
-  background: #34495e;
+  background: var(--blue-navy);
 }
 label.logo {
   font-size: 24px;
@@ -87,6 +89,7 @@ section {
   border-radius: 50%;
   height: 400px;
   width: 400px;
+  object-fit: cover;
 }
 
 .social-links a {
@@ -151,7 +154,7 @@ section {
   transition: all 0.4s;
 }
 .layer:hover {
-  background: #34495e1f;
+  background: #34495e77;
 }
 .layer h6 {
   position: absolute;
@@ -169,7 +172,21 @@ section {
   bottom: 50%;
   opacity: 1;
 }
+.github {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+}
 
+.cta {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 24px;
+}
 @media screen and (max-width: 1048px) {
   label.logo {
     font-size: 32px;
