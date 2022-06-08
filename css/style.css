@@ -151,7 +151,7 @@ section {
   transition: all 0.4s;
 }
 .layer:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #252323);
+  background: #34495e1f;
 }
 .layer h6 {
   position: absolute;
@@ -229,7 +229,7 @@ section {
     padding-bottom: 16px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .featured-img img {
     width: 450px;
     height: 450px;
