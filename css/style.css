@@ -85,7 +85,8 @@ section {
 }
 .featured-img img {
   border-radius: 50%;
-  height: 550px;
+  height: 400px;
+  width: 400px;
 }
 
 .social-links a {
@@ -168,8 +169,7 @@ section {
   bottom: 50%;
   opacity: 1;
 }
-@media screen and (max-width: 1425px) {
-}
+
 @media screen and (max-width: 1048px) {
   label.logo {
     font-size: 32px;
@@ -212,5 +212,20 @@ section {
   }
   nav ul.show {
     left: 0;
+  }
+  .featured-img img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  .featured-section {
+    display: block;
+  }
+  .portfolio-content {
+    display: block;
+  }
+  .column {
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
